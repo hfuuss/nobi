@@ -1,0 +1,32 @@
+{
+  "name": "nobi",
+  "version": "1.0.0",
+  "description": "jiuyue",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "babel lib --watch --out-dir dist",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-like"
+  ],
+  "author": "jiuyue",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.0-beta.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
