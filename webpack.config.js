@@ -14,7 +14,7 @@ const path = require('path');
     plugins: [
       new CleanWebpackPlugin(['dist']),
       new HtmlWebpackPlugin({
-        title: 'Development',
+        title: 'Nobi',
         template: 'index.html'
       })
     ],
