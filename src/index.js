@@ -1,6 +1,6 @@
 
-import Nobi from '../lib/Nobi';
-import NobiDOM from '../lib/NobiDOM';
+import Nobi from '../lib/Nobi/index';
+import NobiDOM from '../lib/NobiDOM/index';
 
 class Welcome extends Nobi.Component {
   render() {
