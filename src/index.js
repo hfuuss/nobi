@@ -7,11 +7,27 @@ class Welcome extends Nobi.Component {
       return <h1>Hello, {this.props.name}</h1>;
   }
 }
-class Comp {
-  render(){
-    return (
-      <div>组件测试</div>
-    )
+
+class Counter extends Nobi.Component {
+  constructor( props ) {
+      super( props );
+      this.state = {
+          num: 1
+      }
+  }
+
+  onClick() {
+    console.log('ss')
+      this.setState( { num: this.state.num + 1 } );
+  }
+
+  render() {
+      return (
+          <div>
+              <h1>count: { this.state.num }</h1>
+              <button onClick={ () => this.onClick()}>add</button>
+          </div>
+      );
   }
 }
 
@@ -19,7 +35,7 @@ const element = <Welcome name="Sara" />
 // const Hello = () => <div>function components Nobi<span>ss</span></div>
 // const title = <h1 className="title">Hello, world!</h1>;
 // const body = <div><Hello></Hello></div>
-console.log(<Comp/>)
-NobiDOM.render( element, document.getElementById('root'))
+// console.log(<Comp/>)
+NobiDOM.render( <Counter/>, document.getElementById('root'))
 
 // console.log(Hello(),title)
