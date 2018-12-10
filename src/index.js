@@ -2,11 +2,11 @@
 import Nobi from '../lib/Nobi/index';
 import NobiDOM from '../lib/NobiDOM/index';
 
-class Welcome extends Nobi.Component {
-  render() {
-      return <h1>Hello, {this.props.name}</h1>;
-  }
-}
+// class Welcome extends Nobi.Component {
+//   render() {
+//       return <h1>Hello, {this.props.name}</h1>;
+//   }
+// }
 
 class Counter extends Nobi.Component {
   constructor( props ) {
@@ -17,7 +17,7 @@ class Counter extends Nobi.Component {
   }
 
   onClick() {
-    console.log('ss')
+      console.log('ss')
       this.setState( { num: this.state.num + 1 } );
   }
 
@@ -31,7 +31,7 @@ class Counter extends Nobi.Component {
   }
 }
 
-const element = <Welcome name="Sara" />
+// const element = <Welcome name="Sara" />
 // const Hello = () => <div>function components Nobi<span>ss</span></div>
 // const title = <h1 className="title">Hello, world!</h1>;
 // const body = <div><Hello></Hello></div>

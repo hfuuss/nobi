@@ -12,6 +12,13 @@ react库精简版,造轮子,练习技术。
 * 组件函数 -- 完成
 * 生命周期 -- 完成
 * diff算法 -- 完成
-* setState 优化 -- 未完成
+* setState 优化 -- 完成
+* 事件封装优化  -- 未完成
 # 如何开发
-会的人一看就会。不会的人看了也不会。
+会的人一看就会。不会的人看了也不会。      
+
+"start": "webpack-dev-server --open", // 开发模式        
+"build": "webpack", // 构建版本，为了方便看webpack和babel处理后的兼容性代码        
+"build:babel": "babel src --watch --out-dir babelsrc", //单独查看babel编译后的jsx       
+"watch": "webpack --watch",// watch
+"test": "echo \"Error: no test specified\" && exit 1"se
