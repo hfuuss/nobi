@@ -17,7 +17,6 @@ class Counter extends Nobi.Component {
   }
 
   onClick() {
-      console.log('ss')
       this.setState( { num: this.state.num + 1 } );
   }
 

@@ -21,4 +21,9 @@ react库精简版,造轮子,练习技术。
 "build": "webpack", // 构建版本，为了方便看webpack和babel处理后的兼容性代码        
 "build:babel": "babel src --watch --out-dir babelsrc", //单独查看babel编译后的jsx       
 "watch": "webpack --watch",// watch
-"test": "echo \"Error: no test specified\" && exit 1"se
+"test": "echo \"Error: no test specified\" && exit 1"
+
+# 参考
+[从零开始实现一个Reac](https://github.com/hujiulong/blog/issues/6)
+[Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)
+[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)
