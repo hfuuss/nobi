@@ -24,6 +24,6 @@ react库精简版,造轮子,练习技术。
 "test": "echo \"Error: no test specified\" && exit 1"
 
 # 参考
-[从零开始实现一个Reac](https://github.com/hujiulong/blog/issues/6)
-[Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)
-[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)
+[从零开始实现一个Reac](https://github.com/hujiulong/blog/issues/6)         
+[Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)       
+[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)      
