@@ -18,9 +18,9 @@ class Counter extends Nobi.Component {
 
   onClick() {
       this.setState( { num: ++this.state.num } );
-      this.setState( { num: ++this.state.num } );
-      setTimeout(() => { this.setState({num: this.state.num + 1}) }, 0)
-      setTimeout(() => { this.setState({num: this.state.num + 1}) }, 0)
+    //   this.setState( { num: ++this.state.num } );
+    //   setTimeout(() => { this.setState({num: this.state.num + 1}) }, 0)
+    //   setTimeout(() => { this.setState({num: this.state.num + 1}) }, 0)
   }
 
   render() {
